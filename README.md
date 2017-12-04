@@ -5,7 +5,7 @@
 ## Requirements
 
 * node.js v5.xx or later (using "const" keyword)
-* 
+* npm ( package manager of node.js. it's  ) 
 
 ## Get Started
 
@@ -23,7 +23,7 @@ npm install
 Copy `config/default.js` to `config/development.js`.
 Edit `development.js` like following...
 
-```
+```js
 module.exports = {
   // your connection string to MongoDB
   // [caoution] Credential information included. do not expose,
