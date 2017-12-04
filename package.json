@@ -1,0 +1,17 @@
+{
+  "name": "frm-log-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node getlog.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.28.1",
+    "instant-mongo-log": "github:rockymanobi/instant-mongo-log",
+    "moment": "^2.19.3"
+  }
+}
